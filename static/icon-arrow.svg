@@ -1,0 +1,13 @@
+<svg preserveAspectRatio="none" width="100%" height="100%" overflow="visible" style="display: block;" viewBox="0 0 58 58" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Icon/Arrow">
+<rect x="0.811489" y="0.811489" width="56.377" height="56.377" rx="28.1885" fill="var(--fill-0, #272727)"/>
+<rect x="0.811489" y="0.811489" width="56.377" height="56.377" rx="28.1885" stroke="url(#paint0_linear_1167_8784)" stroke-width="1.62298"/>
+<path id="&#62;" d="M20.041 21L23.6376 21L29.9588 34.8341L29.1232 34.8341L35.4444 21L39.041 21L31.7389 37L27.3431 37L20.041 21Z" fill="var(--fill-0, white)"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_1167_8784" x1="29" y1="6.32316e-07" x2="29" y2="58" gradientUnits="userSpaceOnUse">
+<stop stop-color="white"/>
+<stop offset="1" stop-color="#929292"/>
+</linearGradient>
+</defs>
+</svg>
