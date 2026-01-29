@@ -13,7 +13,7 @@
 	}
 </script>
 
-<div class="bg-card-gray border-[3px] border-border-white rounded-form p-9 w-full max-w-[890px] flex flex-col items-center gap-form-container-gap shadow-[var(--shadow-card)] md:w-[890px]">
+<div class="bg-card-gray border-[3px] border-border-white rounded-form p-9 w-full max-w-[890px] flex flex-col items-center gap-form-container-gap shadow-(--shadow-card) md:w-[890px]">
 	<div class="flex flex-col items-center gap-description-gap w-full">
 		<h2 class="font-kabel font-black text-[36px] leading-[0.9] tracking-[-3px] text-text-primary text-center uppercase m-0 whitespace-pre-wrap w-full md:text-[60px] md:max-w-xl">
 			Early access drops every Monday
