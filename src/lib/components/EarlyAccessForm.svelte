@@ -63,7 +63,7 @@
 			</div>
 			<button
 				type="submit"
-				class="bg-text-primary border-[1.623px] border-bg-gray rounded-button px-[16.23px] py-[8.115px] h-[49.23px] w-[207.2px] font-mono font-medium text-lg leading-[1.2] tracking-[-1px] text-bg-gray cursor-pointer uppercase hover:opacity-90"
+				class="bg-text-primary border-[1.623px] border-bg-gray rounded-button px-[16.23px] py-[8.115px] h-[49.23px] w-[207.2px] font-geist-mono font-medium text-lg leading-[1.2] tracking-[-1px] text-bg-gray cursor-pointer uppercase hover:opacity-90"
 			>
 				SUBMIT
 			</button>
