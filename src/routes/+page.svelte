@@ -37,7 +37,7 @@
 
 		<!-- Testimonials Section -->
 		<div class="relative w-full">
-			<div class="overflow-x-auto lg:overflow-x-visible py-4 lg:py-0 p-4 -translate-x-5 lg:translate-x-0">
+			<div class="overflow-x-auto lg:overflow-x-visible py-4 lg:py-0 p-4 -translate-x-5 lg:translate-x-0 scrollbar-hide">
 				<div class="flex flex-row gap-[26px] w-max lg:w-full lg:flex-row lg:justify-center">
 					<TestimonialCard
 						quote='"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."'
