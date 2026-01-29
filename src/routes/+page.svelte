@@ -1,7 +1,7 @@
 <script lang="ts">
 	import EarlyAccessForm from '$lib/components/EarlyAccessForm.svelte';
 	import TestimonialCard from '$lib/components/TestimonialCard.svelte';
-	import PlayButton from '$lib/components/PlayButton.svelte';
+		import PlayButton from '$lib/components/PlayButton.svelte';
 </script>
 
 <div class="relative w-full min-h-screen bg-bg-gray overflow-x-hidden font-suisse">
@@ -37,7 +37,7 @@
 
 		<!-- Testimonials Section -->
 		<div class="-translate-x-3.5 md:translate-x-0 w-full overflow-x-auto md:overflow-x-visible py-4 md:py-0 p-4">
-			<div class="flex flex-row gap-[30px] w-max md:w-full md:flex-row md:flex-wrap md:justify-center">
+			<div class="flex flex-row gap-[30px] w-max md:w-full md:flex-row md:justify-center">
 				<TestimonialCard
 					quote='"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."'
 					name="First Name"
