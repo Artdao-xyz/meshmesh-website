@@ -1,7 +1,7 @@
 <script lang="ts">
 	import EarlyAccessForm from '$lib/components/EarlyAccessForm.svelte';
 	import TestimonialCard from '$lib/components/TestimonialCard.svelte';
-		import PlayButton from '$lib/components/PlayButton.svelte';
+	import VideoComponent from '$lib/components/VideoComponent.svelte';
 </script>
 
 <div class="relative w-full min-h-screen bg-bg-gray overflow-x-hidden font-suisse">
@@ -26,7 +26,7 @@
 					<br />
 					Comes with a sandbox to try it for free.
 				</p>
-				<PlayButton />
+				<VideoComponent />
 			</div>
 		</div>
 	</section>
