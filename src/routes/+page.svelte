@@ -31,7 +31,7 @@
 				<div class="h-10 w-[180px] relative md:h-[55.279px] md:w-[253.058px]">
 					<img src="/logo-meshmesh.svg" alt="MeshMesh Logo" class="w-full h-full block" />
 				</div>
-				<h1 class="font-sans font-black text-[48px] leading-[0.85] tracking-[-2px] text-text-hero text-center uppercase m-0 whitespace-pre-wrap max-w-[1030px] md:text-[95px] md:tracking-[-4px] md:leading-[0.79]">
+				<h1 class="font-kabel font-black text-[48px] leading-[0.85] tracking-[-2px] text-text-hero text-center uppercase m-0 whitespace-pre-wrap max-w-[1030px] md:text-[95px] md:tracking-[-4px] md:leading-[0.79]">
 					<span>Easy mode for </span>
 					<span>Salesforce admins</span>
 				</h1>
@@ -55,7 +55,7 @@
 	<section id="form-section" class="relative w-full max-w-[1440px] mx-auto flex flex-col items-center gap-form-gap py-hero-padding-y px-5 z-10 md:px-hero-padding-x">
 		<div class="bg-card-gray border-[3px] border-border-white rounded-form p-9 w-full max-w-[890px] flex flex-col items-center gap-form-container-gap shadow-shadow-card md:w-[890px]">
 			<div class="flex flex-col items-center gap-description-gap w-full">
-				<h2 class="font-sans font-black text-[36px] leading-[0.9] tracking-[-3px] text-text-primary text-center uppercase m-0 whitespace-pre-wrap w-full md:text-[60px]">
+				<h2 class="font-kabel font-black text-[36px] leading-[0.9] tracking-[-3px] text-text-primary text-center uppercase m-0 whitespace-pre-wrap w-full md:text-[60px] md:max-w-xl">
 					Early access drops every Monday
 				</h2>
 				<p class="font-sans font-normal text-lg leading-[1.4] text-text-primary text-center w-full m-0 whitespace-pre-wrap md:text-2xl md:w-[669px]">

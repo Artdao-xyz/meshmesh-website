@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;900&family=JetBrains+Mono:wght@500&display=swap');
 
+@font-face {
+	font-family: 'Kabel Black';
+	src: url('/font/Kabel Black Regular.woff2') format('woff2');
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+
 @import "tailwindcss";
 
 @theme {
@@ -28,8 +36,9 @@
 	--shadow-card: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
 	
 	/* Font Families */
-	--font-family-sans: 'Inter', sans-serif;
-	--font-family-mono: 'JetBrains Mono', monospace;
+	--font-sans: 'Inter', sans-serif;
+	--font-mono: 'JetBrains Mono', monospace;
+	--font-kabel: 'Kabel Black', sans-serif;
 }
 
 @layer base {
