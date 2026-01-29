@@ -16,6 +16,14 @@
 	font-display: swap;
 }
 
+@font-face {
+	font-family: 'Suisse Intl';
+	src: url('/font/SuisseIntl-Regular.woff2') format('woff2');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
 @import "tailwindcss";
 
 @theme {
@@ -44,9 +52,9 @@
 	--shadow-card: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
 	
 	/* Font Families */
-	--font-sans: 'Inter', sans-serif;
 	--font-geist-mono: 'Geist Mono', monospace;
 	--font-kabel: 'Kabel Black', sans-serif;
+	--font-suisse: 'Suisse Intl', sans-serif;
 }
 
 @layer base {

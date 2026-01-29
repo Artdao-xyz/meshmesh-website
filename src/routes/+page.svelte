@@ -3,10 +3,10 @@
 	import TestimonialCard from '$lib/components/TestimonialCard.svelte';
 </script>
 
-<div class="relative w-full min-h-screen bg-bg-gray overflow-x-hidden">
+<div class="relative w-full min-h-screen bg-bg-gray overflow-x-hidden font-suisse">
 	<!-- Background Image -->
 	<div class="absolute left-0 top-0 w-full h-screen overflow-hidden pointer-events-none z-0">
-		<img src="/image-background.png" alt="Background" class="absolute w-full h-full object-cover object-[center_bottom] left-0 top-0" />
+		<img src="/image-background.png" alt="Background" class="absolute w-full h-full object-cover left-0 top-0" />
 	</div>
 
 	<!-- First Screen - Hero Section -->
@@ -20,7 +20,7 @@
 					<span>Easy mode for </span>
 					<span>Salesforce admins</span>
 				</h1>
-				<p class="font-sans font-normal text-lg leading-[1.4] text-text-hero text-center w-full m-0 whitespace-pre-wrap md:text-2xl md:w-[755px]">
+				<p class="font-normal text-lg leading-[1.4] text-text-hero text-center w-full m-0 whitespace-pre-wrap md:text-2xl md:w-[755px]">
 					See how Salesforce admins are cutting 90% time, doing it themselves, with no developer needed. Early access is open.
 					<br />
 					Comes with a sandbox to try it for free.

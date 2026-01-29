@@ -22,7 +22,7 @@
 				<span class="block md:hidden">drops</span>
 				<span>every Monday</span>
 			</h2>
-			<p class="font-sans font-normal leading-[1.4] text-text-primary text-center w-full m-0 whitespace-pre-wrap md:text-lg md:w-[669px]">
+			<p class="font-normal leading-[1.4] text-text-primary text-center w-full m-0 whitespace-pre-wrap md:text-lg md:w-[669px]">
 				Save your place and we'll send you an invite code by email to download MeshMesh Studio loaded with free credits.
 			</p>
 		</div>
@@ -34,33 +34,33 @@
 						type="text"
 						placeholder="Full Name"
 						bind:value={formData.fullName}
-						class="flex-1 h-hero-padding-x min-h-hero-padding-x max-h-hero-padding-x md:h-[47px] md:min-h-[47px] md:max-h-[47px] border-[0.6px] border-text-primary rounded-full pl-6 pr-2.5 font-sans font-normal text-lg leading-none text-text-primary bg-transparent outline-none placeholder:text-text-primary box-border"
+						class="flex-1 h-hero-padding-x min-h-hero-padding-x max-h-hero-padding-x md:h-[47px] md:min-h-[47px] md:max-h-[47px] border-[0.6px] border-text-primary rounded-full pl-6 pr-2.5 font-normal text-lg leading-none text-text-primary bg-transparent outline-none placeholder:text-text-primary box-border"
 						required
 					/>
 					<input
 						type="email"
 						placeholder="Email"
 						bind:value={formData.email}
-						class="flex-1 h-hero-padding-x min-h-hero-padding-x max-h-hero-padding-x md:h-[47px] md:min-h-[47px] md:max-h-[47px] border-[0.6px] border-text-primary rounded-full pl-6 pr-2.5 font-sans font-normal text-lg leading-none text-text-primary bg-transparent outline-none placeholder:text-text-primary box-border"
+						class="flex-1 h-hero-padding-x min-h-hero-padding-x max-h-hero-padding-x md:h-[47px] md:min-h-[47px] md:max-h-[47px] border-[0.6px] border-text-primary rounded-full pl-6 pr-2.5 font-normal text-lg leading-none text-text-primary bg-transparent outline-none placeholder:text-text-primary box-border"
 						required
 					/>
 					<input
 						type="text"
 						placeholder="Business Name"
 						bind:value={formData.businessName}
-						class="flex-1 h-hero-padding-x min-h-hero-padding-x max-h-hero-padding-x md:h-[47px] md:min-h-[47px] md:max-h-[47px] border-[0.6px] border-text-primary rounded-full pl-6 pr-2.5 font-sans font-normal text-lg leading-none text-text-primary bg-transparent outline-none placeholder:text-text-primary box-border"
+						class="flex-1 h-hero-padding-x min-h-hero-padding-x max-h-hero-padding-x md:h-[47px] md:min-h-[47px] md:max-h-[47px] border-[0.6px] border-text-primary rounded-full pl-6 pr-2.5 font-normal text-lg leading-none text-text-primary bg-transparent outline-none placeholder:text-text-primary box-border"
 						required
 					/>
 				</div>
 				<div class="flex flex-col gap-4 md:gap-description-gap w-full">
-					<p class="font-sans font-normal md:text-lg leading-[1.2] text-text-primary m-0 whitespace-pre-wrap mt-3 md:mt-0">
+					<p class="font-normal md:text-lg leading-[1.2] text-text-primary m-0 whitespace-pre-wrap mt-3 md:mt-0">
 						Got Skills? Get paid bounties for use case validation, trailblazer feedback, & video testimonials.
 					</p>
 					<textarea
 						placeholder="Description"
 						bind:value={formData.description}
 						rows="3"
-						class="flex-1 border-[0.6px] border-text-primary rounded-textarea p-4 md:p-6 font-sans font-normal text-lg leading-[1.2] text-text-primary bg-transparent outline-none resize-y min-h-[50px] md:min-h-[100px] h-auto w-full placeholder:text-text-primary box-border"
+						class="flex-1 border-[0.6px] border-text-primary rounded-textarea p-4 md:p-6 font-normal text-lg leading-[1.2] text-text-primary bg-transparent outline-none resize-y min-h-[50px] md:min-h-[100px] h-auto w-full placeholder:text-text-primary box-border"
 					></textarea>
 				</div>
 			</div>
