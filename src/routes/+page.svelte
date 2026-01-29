@@ -30,26 +30,28 @@
 	</section>
 
 	<!-- Second Screen - Form Section -->
-	<section id="form-section" class="relative w-full max-w-[1440px] mx-auto flex flex-col items-center gap-form-gap py-hero-padding-y px-5 z-10 md:px-hero-padding-x">
+	<section id="form-section" class="relative w-full max-w-[1440px] mx-auto flex flex-col items-center gap-10 md:gap-form-gap py-hero-padding-y px-5 z-10 md:px-hero-padding-x">
 		<EarlyAccessForm />
 
 		<!-- Testimonials Section -->
-		<div class="flex flex-col gap-[30px] w-full justify-center md:flex-row md:flex-wrap">
-			<TestimonialCard
-				quote='"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."'
-				name="First Name"
-				title="Title"
-			/>
-			<TestimonialCard
-				quote='"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."'
-				name="First Name"
-				title="Title"
-			/>
-			<TestimonialCard
-				quote='"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."'
-				name="First Name"
-				title="Title"
-			/>
+		<div class="-translate-x-4 md:translate-x-0 w-full overflow-x-auto md:overflow-x-visible py-4 md:py-0 pl-5 md:p-4">
+			<div class="flex flex-row gap-[30px] w-max md:w-full md:flex-row md:flex-wrap md:justify-center">
+				<TestimonialCard
+					quote='"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."'
+					name="First Name"
+					title="Title"
+				/>
+				<TestimonialCard
+					quote='"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."'
+					name="First Name"
+					title="Title"
+				/>
+				<TestimonialCard
+					quote='"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."'
+					name="First Name"
+					title="Title"
+				/>
+			</div>
 		</div>
 	</section>
 </div>
