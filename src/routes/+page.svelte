@@ -32,13 +32,13 @@
 	</section>
 
 	<!-- Second Screen - Form Section -->
-	<section id="form-section" class="relative w-full max-w-[1440px] mx-auto flex flex-col items-center gap-[30px] md:gap-form-gap py-10 md:py-hero-padding-y px-5 z-10 md:px-hero-padding-x">
+	<section id="form-section" class="relative w-full max-w-[1440px] mx-auto flex flex-col items-center gap-[30px] md:gap-form-gap py-10 md:py-hero-padding-y px-5 z-10 md:px-hero-padding-x md:min-h-screen">
 		<EarlyAccessForm />
 
 		<!-- Testimonials Section -->
 		<div class="relative w-full">
-			<div class="overflow-x-auto md:overflow-x-visible py-4 md:py-0 p-4 -translate-x-5 md:translate-x-0">
-				<div class="flex flex-row gap-[26px] w-max md:w-full md:flex-row md:justify-center">
+			<div class="overflow-x-auto lg:overflow-x-visible py-4 lg:py-0 p-4 -translate-x-5 lg:translate-x-0">
+				<div class="flex flex-row gap-[26px] w-max lg:w-full lg:flex-row lg:justify-center">
 					<TestimonialCard
 						quote='"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."'
 						name="First Name"
@@ -56,7 +56,7 @@
 					/>
 				</div>
 			</div>
-			<div class="absolute top-4 right-4 bottom-4 w-20 h-auto bg-linear-to-r from-transparent to-bg-gray pointer-events-none md:hidden"></div>
+			<div class="absolute top-4 right-4 bottom-4 w-20 h-auto bg-linear-to-r from-transparent to-bg-gray pointer-events-none lg:hidden"></div>
 		</div>
 	</section>
 </div>

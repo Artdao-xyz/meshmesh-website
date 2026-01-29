@@ -13,7 +13,7 @@
 	}
 </script>
 
-<div class="bg-linear-to-b from-border-white to-[#929292] rounded-form p-[3px] w-full max-w-[890px] shadow-(--shadow-card) md:w-[890px]">
+<div class="bg-linear-to-b from-border-white to-[#929292] rounded-form p-[3px] w-full max-w-[890px] shadow-(--shadow-card) md:w-[700px] lg:w-[890px]">
 	<div class="bg-card-gray rounded-form px-[25px] py-[36px] md:p-9 w-full flex flex-col items-center gap-[20px] md:gap-form-container-gap">
 		<div class="flex flex-col items-center gap-[10px] md:gap-description-gap w-full">
 			<h2 class="font-kabel font-black text-[48px] md:text-6xl leading-[0.9] tracking-[-1.44px] text-text-primary text-center uppercase m-0 w-full md:tracking-[-3px] md:max-w-xl">
@@ -29,26 +29,26 @@
 
 		<form onsubmit={handleSubmit} class="flex flex-col items-center gap-[20px] md:gap-5 w-full">
 			<div class="flex flex-col gap-[20px] md:gap-5 items-start w-full">
-				<div class="flex flex-col gap-inputs-gap md:gap-inputs-gap w-full md:flex-row">
+				<div class="flex flex-col gap-inputs-gap md:gap-inputs-gap w-full lg:flex-row">
 					<input
 						type="text"
 						placeholder="Full Name"
 						bind:value={formData.fullName}
-						class="flex-1 h-[47px] min-h-[47px] max-h-[47px] md:h-[47px] md:min-h-[47px] md:max-h-[47px] border-[0.6px] border-text-primary rounded-full pl-[24px] pr-[10px] font-normal text-[16px] md:text-lg leading-none text-text-primary bg-transparent outline-none placeholder:text-text-primary box-border"
+						class="flex-1 min-w-0 h-[47px] min-h-[47px] max-h-[47px] md:h-[47px] md:min-h-[47px] md:max-h-[47px] border-[0.6px] border-text-primary rounded-full pl-[24px] pr-[10px] font-normal text-[16px] md:text-lg leading-none text-text-primary bg-transparent outline-none placeholder:text-text-primary box-border"
 						required
 					/>
 					<input
 						type="email"
 						placeholder="Email"
 						bind:value={formData.email}
-						class="flex-1 h-[47px] min-h-[47px] max-h-[47px] md:h-[47px] md:min-h-[47px] md:max-h-[47px] border-[0.6px] border-text-primary rounded-full pl-[24px] pr-[10px] font-normal text-[16px] md:text-lg leading-none text-text-primary bg-transparent outline-none placeholder:text-text-primary box-border"
+						class="flex-1 min-w-0 h-[47px] min-h-[47px] max-h-[47px] md:h-[47px] md:min-h-[47px] md:max-h-[47px] border-[0.6px] border-text-primary rounded-full pl-[24px] pr-[10px] font-normal text-[16px] md:text-lg leading-none text-text-primary bg-transparent outline-none placeholder:text-text-primary box-border"
 						required
 					/>
 					<input
 						type="text"
 						placeholder="Business Name"
 						bind:value={formData.businessName}
-						class="flex-1 h-[47px] min-h-[47px] max-h-[47px] md:h-[47px] md:min-h-[47px] md:max-h-[47px] border-[0.6px] border-text-primary rounded-full pl-[24px] pr-[10px] font-normal text-[16px] md:text-lg leading-none text-text-primary bg-transparent outline-none placeholder:text-text-primary box-border"
+						class="flex-1 min-w-0 h-[47px] min-h-[47px] max-h-[47px] md:h-[47px] md:min-h-[47px] md:max-h-[47px] border-[0.6px] border-text-primary rounded-full pl-[24px] pr-[10px] font-normal text-[16px] md:text-lg leading-none text-text-primary bg-transparent outline-none placeholder:text-text-primary box-border"
 						required
 					/>
 				</div>
