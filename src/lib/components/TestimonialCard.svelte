@@ -5,7 +5,7 @@
 </script>
 
 <div class="bg-linear-to-b from-border-white to-[#929292] rounded-form p-[3px] w-[280px] shrink-0 shadow-(--shadow-card) md:w-[430px] md:max-w-[430px]">
-	<div class="bg-card-gray rounded-form px-[40px] py-[50px] md:px-10 md:py-9 flex flex-col gap-[30px] md:gap-form-container-gap md:h-[250px]">
+	<div class="bg-card-gray rounded-form px-hero-padding-x py-[50px] md:px-10 md:py-9 flex flex-col gap-[30px] md:gap-form-container-gap md:h-[250px]">
 		<div class="flex-1 flex flex-col items-center w-full">
 			<p class="font-normal text-[18px] md:text-2xl leading-[1.4] text-text-primary text-center m-0 whitespace-pre-wrap w-full">
 				{quote}
