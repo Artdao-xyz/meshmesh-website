@@ -36,24 +36,27 @@
 		<EarlyAccessForm />
 
 		<!-- Testimonials Section -->
-		<div class="-translate-x-3.5 md:translate-x-0 w-full overflow-x-auto md:overflow-x-visible py-4 md:py-0 p-4">
-			<div class="flex flex-row gap-[30px] w-max md:w-full md:flex-row md:justify-center">
-				<TestimonialCard
-					quote='"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."'
-					name="First Name"
-					title="Title"
-				/>
-				<TestimonialCard
-					quote='"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."'
-					name="First Name"
-					title="Title"
-				/>
-				<TestimonialCard
-					quote='"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."'
-					name="First Name"
-					title="Title"
-				/>
+		<div class="relative w-full">
+			<div class="overflow-x-auto md:overflow-x-visible py-4 md:py-0 p-4 -translate-x-5 md:translate-x-0">
+				<div class="flex flex-row gap-[26px] w-max md:w-full md:flex-row md:justify-center">
+					<TestimonialCard
+						quote='"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."'
+						name="First Name"
+						title="Title"
+					/>
+					<TestimonialCard
+						quote='"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."'
+						name="First Name"
+						title="Title"
+					/>
+					<TestimonialCard
+						quote='"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."'
+						name="First Name"
+						title="Title"
+					/>
+				</div>
 			</div>
+			<div class="absolute top-4 right-4 bottom-4 w-20 h-auto bg-linear-to-r from-transparent to-bg-gray pointer-events-none md:hidden"></div>
 		</div>
 	</section>
 </div>
