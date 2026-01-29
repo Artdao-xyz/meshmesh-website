@@ -30,7 +30,7 @@
 	</section>
 
 	<!-- Second Screen - Form Section -->
-	<section id="form-section" class="relative w-full max-w-[1440px] mx-auto flex flex-col items-center gap-10 md:gap-form-gap py-hero-padding-y px-5 z-10 md:px-hero-padding-x">
+	<section id="form-section" class="relative w-full max-w-[1440px] mx-auto flex flex-col items-center gap-10 md:gap-form-gap py-10 md:py-hero-padding-y px-5 z-10 md:px-hero-padding-x">
 		<EarlyAccessForm />
 
 		<!-- Testimonials Section -->
