@@ -34,7 +34,7 @@
 		<EarlyAccessForm />
 
 		<!-- Testimonials Section -->
-		<div class="-translate-x-4 md:translate-x-0 w-full overflow-x-auto md:overflow-x-visible py-4 md:py-0 pl-5 md:p-4">
+		<div class="-translate-x-3.5 md:translate-x-0 w-full overflow-x-auto md:overflow-x-visible py-4 md:py-0 p-4">
 			<div class="flex flex-row gap-[30px] w-max md:w-full md:flex-row md:flex-wrap md:justify-center">
 				<TestimonialCard
 					quote='"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."'

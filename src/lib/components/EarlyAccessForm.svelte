@@ -34,21 +34,21 @@
 						type="text"
 						placeholder="Full Name"
 						bind:value={formData.fullName}
-						class="flex-1 h-[40px] min-h-[40px] max-h-[40px] md:h-[47px] md:min-h-[47px] md:max-h-[47px] border-[0.6px] border-text-primary rounded-full pl-6 pr-2.5 font-sans font-normal text-lg leading-none text-text-primary bg-transparent outline-none placeholder:text-text-primary box-border"
+						class="flex-1 h-hero-padding-x min-h-hero-padding-x max-h-hero-padding-x md:h-[47px] md:min-h-[47px] md:max-h-[47px] border-[0.6px] border-text-primary rounded-full pl-6 pr-2.5 font-sans font-normal text-lg leading-none text-text-primary bg-transparent outline-none placeholder:text-text-primary box-border"
 						required
 					/>
 					<input
 						type="email"
 						placeholder="Email"
 						bind:value={formData.email}
-						class="flex-1 h-[40px] min-h-[40px] max-h-[40px] md:h-[47px] md:min-h-[47px] md:max-h-[47px] border-[0.6px] border-text-primary rounded-full pl-6 pr-2.5 font-sans font-normal text-lg leading-none text-text-primary bg-transparent outline-none placeholder:text-text-primary box-border"
+						class="flex-1 h-hero-padding-x min-h-hero-padding-x max-h-hero-padding-x md:h-[47px] md:min-h-[47px] md:max-h-[47px] border-[0.6px] border-text-primary rounded-full pl-6 pr-2.5 font-sans font-normal text-lg leading-none text-text-primary bg-transparent outline-none placeholder:text-text-primary box-border"
 						required
 					/>
 					<input
 						type="text"
 						placeholder="Business Name"
 						bind:value={formData.businessName}
-						class="flex-1 h-[40px] min-h-[40px] max-h-[40px] md:h-[47px] md:min-h-[47px] md:max-h-[47px] border-[0.6px] border-text-primary rounded-full pl-6 pr-2.5 font-sans font-normal text-lg leading-none text-text-primary bg-transparent outline-none placeholder:text-text-primary box-border"
+						class="flex-1 h-hero-padding-x min-h-hero-padding-x max-h-hero-padding-x md:h-[47px] md:min-h-[47px] md:max-h-[47px] border-[0.6px] border-text-primary rounded-full pl-6 pr-2.5 font-sans font-normal text-lg leading-none text-text-primary bg-transparent outline-none placeholder:text-text-primary box-border"
 						required
 					/>
 				</div>
