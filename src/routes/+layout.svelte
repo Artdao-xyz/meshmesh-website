@@ -7,6 +7,8 @@
 
 <svelte:head>
 	<link rel="icon" href={favicon} />
+	<!-- title -->
+	<title>MeshMesh</title>
 </svelte:head>
 
 {@render children()}

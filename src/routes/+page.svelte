@@ -20,7 +20,7 @@
 					<span>Easy mode for </span>
 					<span>Salesforce admins</span>
 				</h1>
-				<p class="font-sans font-normal text-lg leading-[1.4] text-text-hero text-center w-full px-5 m-0 whitespace-pre-wrap md:text-2xl md:w-[755px] md:px-0">
+				<p class="font-sans font-normal text-lg leading-[1.4] text-text-hero text-center w-full m-0 whitespace-pre-wrap md:text-2xl md:w-[755px]">
 					See how Salesforce admins are cutting 90% time, doing it themselves, with no developer needed. Early access is open.
 					<br />
 					Comes with a sandbox to try it for free.
